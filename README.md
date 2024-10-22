@@ -29,11 +29,34 @@ This is a healthcare management web application built using **Next.js** with **T
 
 ## How to run this code
 
-1. Clone this repository</li>
-2. Install dependencies: run `npm install` or `yarn install`.
-3. 
-    - To run the application for development, run  `npm run dev ` or `yarn dev`.
-4. Open localhost:3000 with your browser to see the result.
+1. Clone this repository
+2. Install dependencies:
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
+3. Set up environment variables:
+   Create a `.env.local` file in the root of the project and add the following environment variables:
+```
+PROJECT_ID=your-appwrite-project-id
+API_KEY=your-appwrite-project-api-key
+DATABASE_ID=your-database-id
+PATIENT_COLLECTION_ID=your-patient-collection-id
+DOCTOR_COLLECTION_ID=your-doctor-collection-id
+APPOINTMENT_COLLECTION_ID=your-appointment-collection-id
+NEXT_PUBLIC_BUCKET_ID=your-bucket-id
+NEXT_PUBLIC_ENDPOINT=your-appwrite-endpoint
+NEXT_PUBLIC_ADMIN_PASSKEY=your-admin-passkey
+SENTRY_AUTH_TOKEN=your-sentry-auth-token
+```
+4. Run the development server:
+  ```
+   npm run dev
+   # or
+   yarn dev
+   ```
+Open http://localhost:3000 to view the application.
 
 ## Technologies Used
 - **Next.js**: a React framework for building fast web applications.
