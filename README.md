@@ -32,9 +32,9 @@ This is a healthcare management web application built using **Next.js** with **T
 1. Clone this repository
 2. Install dependencies:
    ```
-   npm run dev
+   npm install
    # or
-   yarn dev
+   yarn install
    ```
 3. Set up environment variables:
    Create a `.env.local` file in the root of the project and add the following environment variables:
